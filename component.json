@@ -1,0 +1,14 @@
+{
+  "name": "sockrpc",
+  "repo": "jmars/sockrpc",
+  "description": "simple rpc over websockets and sockjs",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+  	"jmars/sockjs-client":"*",
+  	"jmars/uuid":"*",
+  	"jmars/future":"*",
+  	"jmars/remote":"*"
+  },
+  "development": {}
+}
