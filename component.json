@@ -10,5 +10,6 @@
   	"jmars/future":"*",
   	"jmars/remote":"*"
   },
-  "development": {}
+  "development": {},
+  "scripts":["lib/index.js"]
 }
