@@ -9,7 +9,7 @@
   	"jmars/uuid":"*",
   	"jmars/future":"*",
   	"jmars/remote":"*",
-    "jmars/json3"
+    "jmars/json3":"*"
   },
   "development": {},
   "scripts":["lib/index.js"]
