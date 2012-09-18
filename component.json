@@ -8,7 +8,7 @@
   	"jmars/sockjs-client":"*",
   	"jmars/uuid":"*",
   	"jmars/future":"*",
-  	"jmars/remote":"*"
+  	"jmars/remote":"*",
     "jmars/json3"
   },
   "development": {},
