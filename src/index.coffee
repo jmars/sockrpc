@@ -1,10 +1,8 @@
 if !window.JSON? then window.JSON = require 'json3'
 SockJS = require 'sockjs-client'
-UUID = require 'uuid'
-Future = require 'future'
 RPC = require 'remote'
 
-if Server?
+if SERVER?
   Socket = new WebSocket "ws://#{window.location.hostname}:3000"
 else
   Socket = new SockJS "http://#{window.location.hostname}:3000/socket"

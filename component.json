@@ -5,10 +5,8 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-  	"jmars/sockjs-client":"*",
-  	"jmars/uuid":"*",
-  	"jmars/future":"*",
-  	"jmars/remote":"*",
+    "jmars/sockjs-client":"*",
+    "jmars/remote":"*",
     "jmars/json3":"*"
   },
   "development": {},
