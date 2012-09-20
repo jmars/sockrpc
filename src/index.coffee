@@ -10,7 +10,7 @@ else
 Remote = {}
 port = send: (data) -> Socket.send data
 
-module.exports = (keys) ->
+module.exports = (keys...) ->
   Remote = RPC port, {}, keys
   do connect = ->
     Socket.onmessage = ({data}) -> port.recieve data
