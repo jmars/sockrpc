@@ -21,3 +21,4 @@ module.exports = (keys...) ->
         Socket = new SockJS "http://#{window.location.hostname}:3000/socket"
         connect()
       , 5000
+  return Remote
